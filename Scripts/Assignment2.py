@@ -4,6 +4,8 @@ import uuid
 import numpy as np
 
 # Load in the data file
-df = pd.read_csv('')
+df = pd.read_csv('r/Users/thierrypierre/Downloads/School_Learning_Modalities.csv')
 
-df
+df 
+
+countRows, countColumns = df.shape
