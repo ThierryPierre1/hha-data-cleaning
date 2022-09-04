@@ -5,7 +5,7 @@ import numpy as np
 
 # Load in the data file
 # df = pd.read_csv('/Users/thierrypierre/Downloads/hha-data-cleaning-main/Data/School_Learning_Modalities.csv')
-df = pd.read_csv('assignment/raw/School_Learning_Modalities.csv')
+df = pd.read_csv('assignment/Data/School_Learning_Modalities.csv')
 print(df)
 
 # Print the count of columns and rows 
@@ -48,4 +48,4 @@ df.dtypes
 
 list(df)
 
-df.to_csv('assignment/raw/School_Learning_Modalities.csv')
+df.to_csv('assignment/Data/School_Learning_Modalities.csv')
